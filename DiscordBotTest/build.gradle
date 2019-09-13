@@ -1,0 +1,27 @@
+plugins {
+	id 'java-library'
+    id 'java'
+}
+
+group 'com.discordbotapp'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+	mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    api 'org.apache.commons:commons-math3:3.6.1'
+    implementation 'com.google.guava:guava:27.0.1-jre'
+    testImplementation 'junit:junit:4.12'
+    compile 'net.dv8tion:JDA:4.0.0_46'
+}
+
+jar {
+    baseName = 'discord-bot-test'
+    version =  '1.0.0-SNAPSHOT'
+}
