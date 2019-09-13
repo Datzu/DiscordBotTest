@@ -1,4 +1,4 @@
-package com.discordbotapp.main;
+package com.discordbotapp.loaders;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -7,6 +7,7 @@ import java.util.Properties;
 import javax.security.auth.login.LoginException;
 
 import com.discordbotapp.listeners.MessageListener;
+import com.discordbotapp.main.Main;
 
 import net.dv8tion.jda.api.AccountType;
 import net.dv8tion.jda.api.JDABuilder;
